@@ -1,1 +1,23 @@
+The first question is about our basics of data types in java.....
+class Geeks{
+    
+    // Function to do operations with different data types
+    static void dataTypes(int a, float b, double c, long l, byte d){
+        
+        double p =c/b ;//c/b
+        double q =b/a ;//b/a
+        double r =c/a ;//c/a
+        double m = r+l;//r+l
+        int s = a/d;//a/d
+        
+        //Printing all the results 
+        System.out.println(p + " " + q + " " + r + " " + m + " " + s);
+        
+    }
+}
 
+Input:
+2 4 8 16 32
+
+Output:
+2.0 2.0 4.0 20.0 0
